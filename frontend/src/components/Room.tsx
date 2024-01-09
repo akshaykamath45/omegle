@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import { Socket, io } from "socket.io";
 
 const Room = () => {
   const [searchParams, setSearchParams] = useSearchParams();
