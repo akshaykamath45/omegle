@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Socket, io } from "socket.io-client";
 
-const URL = "http://localhost:5173";
+const URL = "http://localhost:5173/";
 
 export const Room = () => {
   const [searchParams, setSearchParams] = useSearchParams();

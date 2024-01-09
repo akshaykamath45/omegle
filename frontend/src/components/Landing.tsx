@@ -5,6 +5,7 @@ const Landing = () => {
   const [joined, setJoined] = useState(false);
 
   useEffect(() => {}, []);
+
   return (
     <div>
       <input type="text" onChange={(e) => setName(e.target.value)}></input>
